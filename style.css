@@ -1,0 +1,24 @@
+.box {
+  margin-bottom: 10px;
+}
+.bricklayer {
+  margin: 4%;
+}
+
+img {
+  border-radius: 4%;
+}
+
+@media screen and (max-width: 1920px) {
+  .bricklayer-column-sizer {
+      /* divide by 3. */
+      width: 33.33333%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bricklayer-column-sizer {
+      /* divide by 2. */
+      width: 50%;
+  }
+}

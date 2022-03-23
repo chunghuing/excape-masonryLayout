@@ -1,0 +1,1 @@
+const bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
